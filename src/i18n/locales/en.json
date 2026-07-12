@@ -1,0 +1,273 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "studio": "Studio",
+    "reach_us": "Reach Us"
+  },
+  "home": {
+    "tagline": "Earth & Ocean Ecosystem",
+    "title": "Guarding the Blue Planet\nStarting with Every Ocean.",
+    "subtitle": "Turning vision into reality through craft, motion, and an endless pursuit of beauty.",
+    "explore": "Explore Work"
+  },
+  "projects": {
+    "section_label": "Our Work",
+    "title": "Ocean & Earth Projects",
+    "description": "We design data-driven experiences that illuminate the fragile beauty of our planet oceans — and inspire action to protect them.",
+    "view_case_study": "View case study",
+    "items": [
+      {
+        "title": "Ocean Acidification Monitor",
+        "desc": "Real-time pH tracking across 12 major ocean basins using satellite data and IoT buoys.",
+        "tag": "Data Visualization",
+        "slug": "ocean-acidification",
+        "detail": {
+          "overview": "Ocean acidification is one of climate change most silent yet severe consequences. Since the Industrial Revolution, surface ocean pH has dropped 0.1 units — a small number that means nearly 30% more acidity.",
+          "stats": [
+            {
+              "label": "Ocean Basins",
+              "value": "12"
+            },
+            {
+              "value": "24/7",
+              "label": "Real-Time Data"
+            },
+            {
+              "value": "0.1",
+              "label": "pH Drop"
+            },
+            {
+              "value": "30%",
+              "label": "Acidity Increase"
+            }
+          ],
+          "content": "This project integrates satellite remote sensing data from the GO-SHIP global ocean acidification observation network with IoT buoy sensor arrays, enabling continuous pH monitoring across 12 major ocean basins. Through multi-source data fusion and machine learning anomaly detection, the system identifies early signals of acidification events within hours. The platform features interactive timeline visualizations, allowing researchers to filter data by region, depth, and time period, while offering a public-facing real-time dashboard to raise awareness. Tech stack: Sentinel-5P satellite data, Argo float array, Python/TensorFlow anomaly detection, and WebGL-based 3D ocean data rendering."
+        }
+      },
+      {
+        "title": "Coral Reef Restoration Map",
+        "desc": "Interactive 3D mapping of coral reef ecosystems showing recovery progress across the Indo-Pacific.",
+        "tag": "3D Mapping",
+        "slug": "coral-reef-map",
+        "detail": {
+          "overview": "Over 50% of the world coral reefs have been lost in the past three decades. This project creates digital twin models of major coral reef ecosystems using high-precision 3D scanning and underwater photogrammetry.",
+          "stats": [
+            {
+              "label": "Reef Sites",
+              "value": "48"
+            },
+            {
+              "value": "3D",
+              "label": "Digital Twin"
+            },
+            {
+              "value": "50%",
+              "label": "Reefs Lost"
+            },
+            {
+              "value": "15",
+              "label": "Restoration Bases"
+            }
+          ],
+          "content": "We deployed underwater drones and high-resolution photogrammetry equipment at 15 key coral restoration sites across the Indo-Pacific, collecting seafloor terrain and coral coverage data monthly. Using NeRF (Neural Radiance Fields) technology, we reconstruct centimeter-accurate 3D coral reef models. Users can freely explore these virtual reefs in their browser, comparing coral coverage changes across timepoints to visualize the impact and challenges of restoration work. This project is developed in partnership with the Australian National University Marine Biology Laboratory, with all raw data open to the research community."
+        }
+      },
+      {
+        "title": "Marine Biodiversity Atlas",
+        "desc": "Cataloging over 40,000 marine species with AI-assisted taxonomy and distribution modeling.",
+        "tag": "AI Research",
+        "slug": "marine-biodiversity",
+        "detail": {
+          "overview": "Over 80% of the ocean remains unexplored. We know more about the Moon surface than the deep sea. This project uses AI to accelerate the discovery and cataloging of marine species.",
+          "stats": [
+            {
+              "label": "Species Cataloged",
+              "value": "40,000+"
+            },
+            {
+              "value": "AI",
+              "label": "Assisted Classification"
+            },
+            {
+              "value": "80%",
+              "label": "Unexplored Ocean"
+            },
+            {
+              "value": "3,200",
+              "label": "New Species Found"
+            }
+          ],
+          "content": "We trained a deep learning-based marine biology image classification system capable of identifying species across more than 40,000 marine organisms, from microscopic plankton to giant whales. Deployed across 23 marine protected areas globally, the system processes millions of observations daily from underwater cameras, environmental DNA samplers, and research vessels. One of the project most exciting achievements is the discovery of 3,200 species previously unrecorded by science, many living near deep-sea hydrothermal vents and cold seeps. All findings have been submitted to official international biodiversity databases."
+        }
+      },
+      {
+        "title": "Deep Sea Exploration Log",
+        "desc": "Documentary series capturing abyssal zone footage from 6,000m depth expeditions.",
+        "tag": "Film",
+        "slug": "deep-sea-log",
+        "detail": {
+          "overview": "At the bottom of the Mariana Trench, water pressure equals one ton per square centimeter. In this eternal darkness, life thrives in ways we cannot imagine. This series brings humanity deepest ocean expeditions to audiences everywhere.",
+          "stats": [
+            {
+              "label": "Depth Reached",
+              "value": "6,000m"
+            },
+            {
+              "value": "24",
+              "label": "Episodes"
+            },
+            {
+              "value": "12",
+              "label": "Expedition Routes"
+            },
+            {
+              "value": "8K",
+              "label": "Resolution"
+            }
+          ],
+          "content": "Deep Sea Exploration Log is a 24-episode documentary series following our research fleet into the world most remote deep-sea regions. Each episode focuses on one expedition route, using 8K underwater cameras and 360-degree spherical recorders to capture the abyssal zone in unprecedented quality. From the Pacific Mariana Trench to the Atlantic Puerto Rico Trench, from the Indian Ocean Java Trench to the Southern Ocean South Sandwich Trench, we present deep-sea wonders never before captured on film. The series reveals not only spectacular creatures — bioluminescent jellyfish, giant tube worms, transparent deep-sea fish — but also the threats of deep-sea mining, plastic pollution, and climate change to these fragile ecosystems."
+        }
+      },
+      {
+        "title": "Plastic Waste Tracker",
+        "desc": "Crowdsourced platform tracking ocean plastic accumulation zones and cleanup efforts worldwide.",
+        "tag": "Platform",
+        "slug": "plastic-tracker",
+        "detail": {
+          "overview": "Approximately 8 million tons of plastic waste enter the ocean every year — equivalent to one garbage truck dumped into the sea every minute. This crowdsourced platform empowers anyone to participate in monitoring and cleaning ocean plastic pollution.",
+          "stats": [
+            {
+              "label": "Volunteers",
+              "value": "120,000+"
+            },
+            {
+              "value": "8M",
+              "label": "Tons Year"
+            },
+            {
+              "value": "5",
+              "label": "Great Garbage Patches"
+            },
+            {
+              "value": "3,400t",
+              "label": "Plastic Removed"
+            }
+          ],
+          "content": "The Plastic Waste Tracker combines satellite imagery analysis, ocean current simulation algorithms, and community crowdsourcing to map global marine plastic distribution in real time. Users upload photos of plastic pollution from beaches and coastlines via a mobile app, and the system automatically geolocates and categorizes them. The platform core innovation is its predictive model — based on real-time ocean currents, wind patterns, and tidal data, it forecasts where plastic will accumulate along coastlines up to 72 hours in advance, enabling cleanup teams to deploy resources precisely. Over 120,000 volunteers are registered, having documented and assisted in removing 3,400 tons of ocean plastic."
+        }
+      },
+      {
+        "title": "Arctic Ice Analytics",
+        "desc": "Predictive modeling of Arctic sea ice melt patterns using climate simulation data.",
+        "tag": "Climate Science",
+        "slug": "arctic-ice",
+        "detail": {
+          "overview": "The Arctic is warming at twice the global average rate. Over the past four decades, summer sea ice extent has shrunk approximately 40%, reshaping global climate patterns and the futures of coastal communities worldwide.",
+          "stats": [
+            {
+              "label": "Warming Rate",
+              "value": "2x"
+            },
+            {
+              "value": "40%",
+              "label": "Ice Loss"
+            },
+            {
+              "value": "40yr",
+              "label": "Data Span"
+            },
+            {
+              "value": "6M",
+              "label": "Simulation Grid Points"
+            }
+          ],
+          "content": "The Arctic Ice Analytics project integrates four decades of satellite remote sensing data from NASA, ESA, and national meteorological agencies, combined with cutting-edge climate simulation models, to dynamically simulate Arctic sea ice changes across 6 million grid points. Our interactive visualization tool lets users scrub through a timeline to observe year-by-year Arctic sea ice changes from 1980 to present, and switch to future projection modes to see ice trajectories under different emission scenarios. Key finding: at current trends, the Arctic could experience its first ice-free summer before 2035 — a prediction incorporated into supplementary materials for the IPCC Sixth Assessment Report."
+        }
+      }
+    ]
+  },
+  "studio": {
+    "section_label": "What We Do",
+    "title": "The Studio",
+    "description": "Foldcraft is a creative studio at the intersection of design, technology, and ecological storytelling. We help organizations communicate the urgency and beauty of Earth ocean ecosystems through immersive visual experiences.",
+    "services": [
+      {
+        "title": "Brand Identity",
+        "desc": "From logo systems to full visual language design rooted in ecological storytelling.",
+        "tag": "Design"
+      },
+      {
+        "title": "Motion & Film",
+        "desc": "Cinematic product videos, documentary-grade ocean footage, and animated explainers.",
+        "tag": "Video"
+      },
+      {
+        "title": "Web & Interactive",
+        "desc": "Data visualization platforms, immersive websites, and real-time dashboard design.",
+        "tag": "Development"
+      },
+      {
+        "title": "Illustration",
+        "desc": "Hand-crafted illustrations of marine life, geological formations, and abstract ecosystems.",
+        "tag": "Art"
+      },
+      {
+        "title": "Creative Direction",
+        "desc": "End-to-end creative strategy for campaigns, exhibitions, and environmental activations.",
+        "tag": "Strategy"
+      },
+      {
+        "title": "3D & Spatial",
+        "desc": "AR ocean experiences, 3D reef models, and spatial installations for galleries.",
+        "tag": "3D/AR"
+      }
+    ],
+    "process_label": "Our Process",
+    "process_title": "How we bring ideas to life",
+    "process_steps": [
+      {
+        "step": "01",
+        "title": "Discover",
+        "desc": "Deep research into the ecosystem, stakeholders, and narrative goals."
+      },
+      {
+        "step": "02",
+        "title": "Define",
+        "desc": "Strategic framing of the visual language and experience architecture."
+      },
+      {
+        "step": "03",
+        "title": "Design",
+        "desc": "Iterative prototyping — from sketches to high-fidelity interactive builds."
+      },
+      {
+        "step": "04",
+        "title": "Deliver",
+        "desc": "Polished production with ongoing support and performance monitoring."
+      }
+    ]
+  },
+  "reach_us": {
+    "section_label": "Get in Touch",
+    "title": "Lets build something meaningful.",
+    "description": "Whether you are planning an ocean conservation campaign, a data visualization platform, or an immersive brand experience — we would love to hear from you.",
+    "email_label": "Email",
+    "email_value": "hello@foldcraft.studio",
+    "location_label": "Location",
+    "location_value": "Singapore and Remote Worldwide",
+    "social_label": "Social",
+    "social_links": [
+      "LinkedIn",
+      "X"
+    ],
+    "form_name": "Name",
+    "form_name_placeholder": "Your name",
+    "form_email": "Email",
+    "form_email_placeholder": "you@example.com",
+    "form_message": "Message",
+    "form_message_placeholder": "Tell us about your project...",
+    "form_submit": "Send Message"
+  },
+  "cta": "Lets Talk"
+}
